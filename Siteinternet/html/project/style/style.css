@@ -1,0 +1,641 @@
+/* GENERAL */
+
+body{
+    min-height: 100vh;
+    background-color: #1a91bc;
+    display: flex;
+    flex-flow: column nowrap;
+
+    font-family: Arial, sans-serif;
+}
+
+header, footer{
+    width: 100%;
+    padding: 1rem 0;
+
+    background-color: #362B27;
+    color: white;
+}
+
+header+div{
+    padding-top: 5rem;
+}
+
+/* header*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 3px 10px #362B27;
+}
+
+header a{
+    color: rgb(230, 226, 198);
+}
+
+header a:hover{
+    color: rgb(192, 218, 211);
+}
+
+nav{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav ul{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-right: 0.5rem;
+
+}
+
+nav ul li{
+    padding: 0 1rem;
+
+    text-transform: uppercase;
+}
+
+.logo{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3rem;
+    color: rgb(230, 226, 198);
+
+    padding-left: 0.1rem;
+}
+
+.logo::after{
+    content: "Casse-Lettres";
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.copyright::after{
+    content: "Casse-Lettres © 2018";
+}
+
+/* home */
+
+.home{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.home h1{
+    width: 50%;
+    padding: 2rem 0rem 0rem;
+}
+
+.home section{
+    flex: 1;
+    
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+
+}
+
+.home article{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.home a, home.img{
+    display: block;
+    margin: 0rem 3rem 3rem;
+}
+
+.home a, .home img{
+    width: 18rem;
+    border-radius: 10rem;
+}
+
+.home img:hover{
+    width: 22rem;
+}
+
+
+/* container */
+
+.container{
+    background-color: #e5e9ea;
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(109, 121, 96);
+}
+
+a:hover{
+    color: rgb(77, 86, 67);
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(72, 75, 62);
+    padding: 0.5rem 0 0.5rem;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgb(72, 75, 62);
+}
+
+h3{
+    font-size: 1.5rem;
+    color: rgb(72, 75, 62);
+}
+
+
+    
+
+/* ma liste au père noël
+
+css commun pour table, tr, td, caption
+ et aussi les formulaires
+
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+caption, tr, td, th
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+*/
+
+
+
+/* LES BÊTISES DE BRYAN */
+
+
+.info
+{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;   
+}
+
+.coord 
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url("medias/opacit%C3%A9.png");
+    border-radius: 20px;  
+    font-size: 1.5em;
+}
+
+.text
+{
+    display: flex;
+    align-items: center;
+/*    background-color: red;*/
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.photo
+{
+    display: flex;
+    align-items: center;
+/*    border: 1px solid black;*/
+/*    background-color: aqua;*/
+    width: 20%;
+    height: auto;
+    margin-left: 5px; 
+}
+.moi
+{
+    border: 1px solid black;
+    max-width: 100%; /* Taille photo */  
+    height: auto; 
+}
+
+.moi:hover 
+{   
+content: url(../media/bryan/tutu.jpg);   
+}
+.blocs
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0px 1px 10px black;
+    background-color: #1a91bc;
+}
+
+
+.blocs table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.blocs caption, .blocs tr, .blocs td, .blocs th
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+
+.xp, .comp, .forma
+{
+    max-width: 100%;
+    height: auto;
+    font-size: 30px;
+}
+
+.blocs2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.C_I, .pitch, .formu
+{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.starman
+{
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+/*page pitch*/
+
+.vod_pitch 
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.vod
+{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    box-shadow: 0px 1px 10px black;
+    background-color: #F3C291;
+   
+}
+
+/*formulaire*/
+
+.formuu
+{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Bouton d'accueil*/
+
+.accueil
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url("medias/opacit%C3%A9.png");
+    border-radius: 20px;
+}
+
+.bouton
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    background-image: url("medias/opacit%C3%A9.png");
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/* ICI C'EST VIVIEN */
+
+.focusv h2{margin-bottom: 0.5rem;
+            margin-top: 0.3rem;
+}
+
+.focusv img{width: auto;
+            height: 12rem;
+            padding-bottom: auto;
+}
+
+.focusv p{font-size: 1.3rem;
+}
+
+.focusv li{font-size: 1.3rem;
+}
+
+.focusv td{font-size: 1.3rem;
+}
+
+.focusv a{font-size: 2rem;
+}
+
+.focusv section{padding-left: 1.5rem;
+    border-top: solid;
+    padding-bottom: 5rem;
+}
+
+.focusv h3{margin-bottom: 0.5rem;
+            margin-top: 0.8rem;
+
+}
+
+.tetev{display: flex;
+        justify-content: space-between;              
+}
+
+.imgv{order: 1;
+    display: block;
+}
+
+.contv{display: block;
+        padding-top: 3.5rem;
+        font-size: 20pt;
+}
+
+.titre1v{display: block;
+        align-items: center;
+}
+
+.focusv{width: 80%;
+    margin: auto;
+    font-family: verdana, sans-serif;
+}
+
+.flexv{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.collv{margin: auto;
+    display: block;
+}
+
+.cenv{display: flex;
+    margin-top: 4rem;
+    max-width: 60%;
+    height: auto;
+}
+
+
+/* CHLOÉ */
+
+div[class="container chloe"]{
+    display: flex;
+    flex-flow: column nowrap;
+
+    width: 60%;
+    margin: auto;
+}
+
+.chloe section{
+    padding: 1rem 1rem;
+}
+
+.chloe article+article{
+    margin-top: 1rem;
+}
+
+.chloe h1, .chloe h2, .chloe h3{
+    font-family: 'Patrick Hand', "Palatino Linotype", serif;
+}
+
+.chloe h2{
+    margin-bottom: 0.4rem;
+}
+
+.chloe p{
+    margin-bottom: 0.4rem;
+}
+
+.chloe th, .chloe td{
+    padding-bottom: 0.5rem;
+    vertical-align: middle;
+}
+
+.chloe th{
+    font-size: 1.3rem;
+}
+
+
+/* CV */
+
+/* presentation */
+
+.presentation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.id_photo{
+    order: 1;
+    width: 20%;
+    min-width: 150px;
+}
+
+.skills{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+.skills ul{
+    width: 50%;
+}
+
+.social_skills li::before{
+    content: "☺ "
+}
+
+.competences li::before{
+    content: "✎ "
+}
+
+
+/* experiences & training */
+
+.table_body td.middle{
+    text-align: center;
+}
+
+.chloe th.first{
+    width: 25%;
+}
+.chloe th.middle{
+    width: 25%;
+}
+.chloe th.last{
+    width: 50%;
+}
+
+.department::before{
+    content: "(";
+}
+.department::after{
+    content: ")";
+}
+
+
+/* HOBBIES */
+
+.yoga iframe{
+    display: block;
+
+    margin-top: 1rem;
+    
+    width: 100%;
+    height: 40rem;
+}
+
+
+/* VIDEO PITCH */
+
+.video_pitch video{
+    display: block;
+
+    width: 100%;
+    height: 40rem;
+    
+    margin: 0 auto 1rem;
+}
+
+
+/* CONTACT */
+
+.chloe form{
+    display: flex;
+    flex-flow: column nowrap;
+
+    width: 50%;
+    margin: auto;
+}
+
+.chloe form h2{
+    margin: 0em auto 0.3em;
+}
+
+.chloe form fieldset+h2{
+    margin-top: 0.5em;
+}
+
+.chloe form div{
+    margin-bottom: 0.2em;
+}
+
+.chloe fieldset{
+    margin: 0.6em 0 0.6em;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    align-items: center;
+}
+
+.chloe label, .chloe input, .chloe select, .chloe textarea{
+    box-sizing: border-box;
+    width: 50%;
+
+    margin-bottom: 0.3em;
+}
+
+.chloe label{
+    padding-right: 0.8em;
+    text-align: right;
+}
+
+.chloe input, .chloe textarea {
+    padding: 0.3em;
+    text-align: left;
+}
+
+.chloe input[type="radio"]{
+    margin-left: 0;
+    margin-right: 0;
+    width: 0px;
+}
+
+.chloe fieldset #objet+label{
+    align-self: flex-start;
+}
+
+.chloe input[type="submit"]{
+    display: block;
+    margin: 1em auto 0;
+    padding: 0.8em 0;
+
+    text-align: center;
+
+    background-color: rgba(243, 194, 145, 0.582);
+    border: 1px solid #F3c291;
+}
+
+.chloe select, .chloe textarea{
+    font-family: inherit;
+}
+
+.chloe textarea{
+    height: 8em;
+}

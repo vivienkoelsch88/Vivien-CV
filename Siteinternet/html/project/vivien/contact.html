@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Casse-Lettres - Contacter Vivien KOELSCH</title>
+        <meta name="description" content="Page contact de mon CV">
+        <meta name="keywords" content="curriculum vitae, CV, codeur, numérique, PCandKO, manpower, html, css, javascript, js, contact, campus numérique">
+
+        <link rel="stylesheet" type="text/css" href="../style/reset.css">
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Patrick+Hand" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="../../../index.html"><div class="logo"></div></a>
+                <ul>
+                    <li>
+                        <a href="../team.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="hobby.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="video.html">Vidéo Pitch</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+<div class="container focusv">
+<section>
+		<article>
+
+	<h1>Contact</h1>
+		<fieldset>
+			<legend> Nous contacter</legend>
+				<form action="/action_https:httpbin.org/post" method="post">
+				<label for="name">Nom :</label>
+				<input id="name" type="text" name="user_name" maxlength="10" autofocus required><br>
+
+				<label for="mail">e-mail :</label>
+	        	<input id="mail" type="email" name="user_email" required><br>
+
+	        	<label for="msg">Message :</label><br>
+	        	<textarea id="msg" name="user_msg" maxlength="150" rows="15" cols="40" required></textarea>
+    
+        <p>Vous êtes :<br>
+			<input type="radio" name="choix" id="choix1"><label for="choix1">Un particulier</label>
+			<br>
+			<input type="radio" name="choix" id="choix2"><label for="choix2">Une entreprise</label>
+		</p><br>
+		
+		<label for="option">Vous préférez :</label>
+			<select id="option" name="nomselect">
+				<option value="option 1">Le sucré</option>
+				<option value="option 1">Le salé</option>
+				<option value="option 1">Ne pas manger</option>
+
+			</select>
+
+		<button id="boutton" type="submit">Envoyer le message</button>
+
+				</form>	
+		</fieldset>
+	</article>
+</section>
+</div>
+<footer>
+            <div class="copyright"></div>
+        </footer>
+        
+    </body>
+
+</html>

@@ -1,0 +1,112 @@
+/* GENERAL */
+
+body{
+    min-height: 100vh;
+    background-color: #1a91bc;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+    font-family: Arial, sans-serif;
+}
+
+header, footer{
+    width: 100%;
+
+    background-color: rgb(54, 43, 39);
+    color: white;
+}
+
+/* header+div{
+    padding-top: 5rem;
+} */
+
+/* header*/
+
+header{
+    box-shadow: 0px 3px 10px rgb(54, 43, 39);
+}
+
+header a{
+    color: rgb(230, 226, 198);
+}
+
+header a:hover{
+}
+
+/*nav{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav ul{
+    flex: 1;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-right: 0.5rem;
+
+}
+
+nav ul li{
+    padding: 0 1rem;
+
+    text-transform: uppercase;
+}
+
+.logo{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3rem;
+    color: rgb(230, 226, 198);
+
+    padding-left: 0.1rem;
+}
+
+.logo::after{
+    content: "Casse-Lettres";
+}*/
+
+/* footer */
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.copyright::after{
+    content: "Casse-Lettres © 2018";
+}
+
+/* container */
+
+.container{
+    background-color: #e5e9ea;
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}

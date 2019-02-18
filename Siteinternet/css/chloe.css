@@ -1,0 +1,106 @@
+/* COMPANY */
+
+.container
+{
+    width: 80%;
+}
+
+.homeitem
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.social-network
+{
+    font-size: 3rem;
+    text-align: center;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+
+p
+{
+    text-align: justify;
+    padding: 0.5rem 1rem 1.5rem;
+}
+
+.company article
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.company img
+{
+    width: 100%;
+}
+
+.company .quote
+{
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+
+    padding-bottom: 2rem;
+}
+
+.find-us article
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.find-us h2
+{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.find-us img
+{
+    align-self: center;
+    width: 100%;
+}
+
+.find-us p
+{
+    display: flex;
+    flex-flow: column nowrap;
+
+    padding-bottom: 0.5rem;
+}
+
+
+@media all and (min-width: 600px)
+{
+    /* COMPANY */
+
+    .company article
+    {
+        flex-flow: row nowrap;
+    }
+
+    .company .quote
+    {
+        padding-top: 2rem;
+        margin: auto;
+    }
+
+    .find-us article
+    {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+        padding: 1rem;
+    }
+
+    .find-us img
+    {
+        width: 5rem;
+    }
+
+}

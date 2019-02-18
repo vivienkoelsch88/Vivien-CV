@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Casse-Lettres - Contacter Chloé Briquet</title>
+        <meta name="description" content="Formulaire de contact pour joindre Chloé Briquet">
+        <meta name="keywords" content="contact,formulaire,téléphone,adresse,mail">
+
+        <link rel="stylesheet" type="text/css" href="../style/reset.css">
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Patrick+Hand" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="../../../index.html"><div class="logo"></div></a>
+                <ul>
+                    <li>
+                        <a href="../team.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="hobby.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href="video.html">Vidéo Pitch</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container chloe">
+            <section>
+                <h1>Me contacter</h1>
+                <article>
+                    <form name="contact" action="https://httpbin.org/post" method="post" autocomplete="on">
+                        <h2>Informations personnelles</h2>
+                        <fieldset>
+                            <label for="madame">Madame</label>
+                            <input type="radio" name="civilite" id="madame" value="madame" checked>
+                            <label for="monsieur">Monsieur</label>
+                            <input type="radio" name="civilite" id="monsieur" value="monsieur">
+                            <label for="civilite_autre">Autre</label>
+                            <input type="radio" name="civilite" id="civilite_autre" value="autre">
+                        </fieldset>
+                        <fieldset>
+                            <label for="prenom">Prénom</label> <input type="text" name="prenom" id="prenom" required>
+                            <label for="nom">Nom</label> <input type="text" name="nom" id="nom" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="professeur">Professeur/Formateur</label>
+                            <input type="radio" name="statut" id="professeur" value="professeur/formateur" checked>
+
+                            <label for="etudiant">Étudiant/Stagiaire</label>
+                            <input type="radio" name="statut" id="etudiant" value="étudiant/stagiaire"> 
+
+                            <label for="statut_autre">Autre</label>
+                            <input type="radio" name="statut" id="statut_autre" value="Autre">
+                        </fieldset>
+                        <fieldset>
+                                <label for="mail">Adresse mail</label>
+                                <input type="mail" name="mail" id="mail" required>
+                        </fieldset>
+                        <h2>Message</h2>
+                        <fieldset>
+                            <label for="objet">Objet</label>
+                            <select name="objet" id="objet">
+                                <option value="proposition_emploi">Proposition d'emploi</option>
+                                <option value="proposition_formation">Proposition de formation</option>
+                                <option value="question_module">Question sur un module</option>
+                                <option value="boire_cafe">Aller boire un thé</option>
+                            </select>
+
+                            <label for="message">Votre message</label>
+                            <textarea name="message" id="message" placeholder="Écrire ici" required></textarea>
+                        </fieldset>
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </article>
+
+            </section>
+        </div>
+
+        <footer>
+            <div class="copyright"></div>
+        </footer>
+        
+    </body>
+
+</html>

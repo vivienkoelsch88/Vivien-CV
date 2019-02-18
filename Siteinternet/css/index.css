@@ -1,0 +1,125 @@
+img{width: 15%;
+	height: auto;
+	margin-right: 1rem;
+}
+
+.homeitem{width: 100%;
+			height: auto;
+			clear: right;
+			clear: left;
+			display: block;
+			margin-left: auto;
+   			margin-right: auto;
+   			margin-bottom: 1rem;
+}
+
+h1{font-size: 20pt;}
+
+section{margin-bottom: 1rem;
+}
+
+article{margin-bottom: 1rem;}
+
+.container{width: 80%;
+	margin: auto;
+	padding-top: 0%;
+
+}
+
+
+
+.leftposition{float: left;
+	width: 70%;
+}
+
+.leftposition img{float: left;
+}
+
+
+.rightposition{float: left;
+	width: 70%;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.rightposition img{float: left;
+}
+
+.societe{ height: 18rem;
+			width: 100%;
+			clear: right;
+			clear: left;
+			display: block;
+			margin-left: auto;
+   			margin-right: auto;
+   			margin-bottom: 1rem;
+   			margin-top: 3rem;
+
+}
+
+.home a, home.img{
+    display: block;
+    margin: 0rem 3rem 3rem;
+}
+
+.home a, .home img{
+    width: 15rem;
+    border-radius: 10rem;
+}
+
+.home img:hover{
+    width: 18rem;
+}
+
+.home article{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.home p{display: none;}
+
+@media all and (min-width: 600px){
+
+	.societe{ 
+		height: 18rem;
+		width: 30%;}
+
+	h1{ 
+		font-size: 40pt;}
+
+	.rightposition{
+		float: right;
+		width: 70%;
+		text-align: justify;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+}
+
+	.rightposition img{
+		float: right;
+		margin-left: 1rem;}
+
+	.home a, .home img{
+		display: block;
+    	width: 18rem;
+    	border-radius: 10rem;
+}
+
+	.home img:hover{
+    	width: 22rem;}
+
+    .home p{
+    	display: block;
+    	max-width: 80%;
+    		}   		
+}
+
+
+	
+
+
+

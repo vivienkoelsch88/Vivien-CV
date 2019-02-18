@@ -1,0 +1,181 @@
+/*Page Produit LIMO*/
+
+
+/*section_1*/
+
+.section1{
+    background-color: aqua;
+    
+    
+}
+
+.LIMO_img{
+    width: 100%;
+    display: block;
+    
+}
+
+
+
+/*section_2*/
+
+.section2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+/*    box-shadow: 0px 4px 40px black;*/
+    
+}
+
+.cara{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.icon{
+    margin: 30px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px; 
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+
+.section5{
+    display: flex;
+    justify-content: center;
+/*    flex-wrap: wrap;*/
+    padding: 20px;
+}
+
+.mi, .fb, .vr{
+    width: 100%;
+    
+}
+
+.mi:hover{
+    content: url(../media/medias/LIMO/mo_MI.png);
+}
+
+.fb:hover{
+    content: url(../media/medias/LIMO/mo_fb.png);
+}
+
+.vr:hover{
+    content: url(../media/medias/LIMO/mo_vr.png);
+}
+
+.mods{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color:   rgb(243, 194, 145);
+}
+
+.text_mods{
+    max-width: 280px;
+}
+
+.mods:hover{
+    font-size: 25px;
+    color: black;
+}
+
+.complet, zoom{
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+}
+
+.zoom{
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
+}
+
+.section6{
+    display : flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+}
+
+.theme{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.theme_img{
+    margin: 30px;
+    width: 20%;
+}
+
+/*page_themes*/
+
+.type_theme{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+/*    background-color: blue;*/
+    
+    
+}
+
+.med, .sf{
+    
+    width: 25%;
+    height: 25%;
+    margin: 5px;
+    position: relative;
+    
+}
+
+.sf_img, .med_img{
+    width: 100%;
+    height: 100%;
+}
+
+/*
+.text_theme{
+
+    background-color: white;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+*/
+
+.med_img:hover{
+    
+    content: url(../media/medias/LIMO/rom_resume.jpg);
+    
+}
+
+.sf_img:hover{
+    content: url(../media/medias/LIMO/sf_resume.jpg);
+}
